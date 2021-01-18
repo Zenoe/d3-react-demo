@@ -1,0 +1,14 @@
+	.full-screen {
+		height: 100vh;
+		z-index: 100;
+		margin: 0;
+		border-radius: 0;
+	}
+	.shrinking {
+		h1.modal-content {
+			transition-delay: 0s;
+			transition: 0.5s;
+			opacity: 0;
+			display: block;
+		}
+	}

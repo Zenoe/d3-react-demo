@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      '@babel/preset-env',
+      // support async
+      {
+        targets: {
+          esmodules: true,
+        },
+      },
+  ],
+    "@babel/preset-react"],
+  "plugins":[
+    // Support for the experimental syntax 'classProperties' isn't currently enabled
+    // https://stackoverflow.com/questions/52237855/support-for-the-experimental-syntax-classproperties-isnt-currently-enabled
+    "@babel/plugin-proposal-class-properties",
+  ],
+
+}
